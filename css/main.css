@@ -44,6 +44,7 @@ body {
     color: white;
     text-align: center;
     display: block;
+    padding: 0;
 }
 
 .img-flex {
