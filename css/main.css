@@ -43,7 +43,7 @@ body {
     background-color: #87714F;
     color: white;
     text-align: center;
-    display: inline-block;
+    display: block;
 }
 
 .img-flex {
