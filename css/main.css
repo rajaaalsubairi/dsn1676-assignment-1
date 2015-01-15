@@ -1,0 +1,71 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+ 
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: #E7E5D9;
+}
+
+.masthead {
+    text-align: center;
+    background: transparent url("../images/masthead-bg.png") repeat left center;
+    height: 2.9em;
+}
+
+.title {
+    display: inline-block;
+    background-color: #E7E5D9;
+}
+
+.star {
+    width: 2em;
+    margin-left: .5em;
+    margin-right: .5em;
+    height: 1em;
+}
+
+.info {
+    background-color: #87714F;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.img-flex {
+    display: block;
+    width: 100%;
+}
+
+.panel {
+    border-image: url("../images/panel-border.png") 30 30 30 30 stretch stretch;
+    border-width: 30px 30px 30px 30px;
+}
+
+.hat {
+    width: 5em;
+    text-align: center;
+}
+
+.bullets {
+    text-align: left;
+}
+
+.crim {
+    text-align: left;
+    margin-left: 1em;
+}
